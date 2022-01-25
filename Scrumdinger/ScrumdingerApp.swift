@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// MARK: -
+
 @main
 struct ScrumdingerApp: App {
     var body: some Scene {
