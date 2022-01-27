@@ -71,6 +71,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF56DB0E27A3276500340A7B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		DFA349FD27A08BE0006B3A9B = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				DFA34A0927A08BE0006B3A9B /* ScrumdingerApp.swift */,
+				DF56DB0E27A3276500340A7B /* Models */,
 				DFA34A3427A08D58006B3A9B /* Views */,
 				DFA34A3527A08D70006B3A9B /* Resources */,
 				DFA34A0F27A08BE1006B3A9B /* Preview Content */,
