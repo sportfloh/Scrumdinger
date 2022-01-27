@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DF56DB1027A327A200340A7B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF56DB0F27A327A200340A7B /* Theme.swift */; };
 		DF56DB1227A3294500340A7B /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF56DB1127A3294500340A7B /* DailyScrum.swift */; };
+		DF56DB1427A32AF600340A7B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF56DB1327A32AF600340A7B /* CardView.swift */; };
 		DFA34A0A27A08BE0006B3A9B /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA34A0927A08BE0006B3A9B /* ScrumdingerApp.swift */; };
 		DFA34A0C27A08BE0006B3A9B /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA34A0B27A08BE0006B3A9B /* MeetingView.swift */; };
 		DFA34A0E27A08BE1006B3A9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFA34A0D27A08BE1006B3A9B /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		DF56DB0F27A327A200340A7B /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		DF56DB1127A3294500340A7B /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		DF56DB1327A32AF600340A7B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		DFA34A0627A08BE0006B3A9B /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFA34A0927A08BE0006B3A9B /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		DFA34A0B27A08BE0006B3A9B /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				DFA34A0B27A08BE0006B3A9B /* MeetingView.swift */,
+				DF56DB1327A32AF600340A7B /* CardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				DF56DB1027A327A200340A7B /* Theme.swift in Sources */,
 				DFA34A0C27A08BE0006B3A9B /* MeetingView.swift in Sources */,
 				DFA34A0A27A08BE0006B3A9B /* ScrumdingerApp.swift in Sources */,
+				DF56DB1427A32AF600340A7B /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
