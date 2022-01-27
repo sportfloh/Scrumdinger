@@ -88,6 +88,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		DF56DB1727A337E300340A7B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DF56DB1527A331B000340A7B /* TrailingIconLabelStyle.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		DFA349FD27A08BE0006B3A9B = {
 			isa = PBXGroup;
 			children = (
@@ -150,7 +158,7 @@
 			children = (
 				DFA34A0B27A08BE0006B3A9B /* MeetingView.swift */,
 				DF56DB1327A32AF600340A7B /* CardView.swift */,
-				DF56DB1527A331B000340A7B /* TrailingIconLabelStyle.swift */,
+				DF56DB1727A337E300340A7B /* Helpers */,
 			);
 			path = Views;
 			sourceTree = "<group>";
