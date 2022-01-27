@@ -8,3 +8,18 @@
 import SwiftUI
 
 // MARK: -
+
+struct TrailingIconLabelStyle: LabelStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        HStack {
+            configuration.title
+            configuration.icon
+        }
+    }
+}
+
+// MARK: -
+
+extension LabelStyle where Self == TrailingIconLabelStyle {
+    static var trailingIcon: Self { Self() }
+}
