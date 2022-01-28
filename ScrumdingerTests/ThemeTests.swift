@@ -13,11 +13,22 @@ import XCTest
 
 final class ThemeTestCase: XCTestCase {}
 
+// MARK: - test accentColor property
+
+extension ThemeTestCase {
+    func testAccentColorBlack() {
+        XCTAssertEqual(.black, Theme.yellow.accentColor)
+    }
+
+    func testAccentColorWhite() {
+        XCTAssertEqual(.white, Theme.indigo.accentColor)
+    }
+}
+
 // MARK: - test mainColor property
 
 extension ThemeTestCase {
     func testMainColorBundleValue() {
-        let theme = Theme.yellow
-        XCTAssertEqual(Color("yellow"), theme.mainColor)
+        XCTAssertEqual(Color("yellow"), Theme.yellow.mainColor)
     }
 }
