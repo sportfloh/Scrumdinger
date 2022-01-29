@@ -32,3 +32,11 @@ extension ThemeTestCase {
         XCTAssertEqual(Color("yellow"), Theme.yellow.mainColor)
     }
 }
+
+// MARK: - test name property
+
+extension ThemeTestCase {
+    func testName() {
+        XCTAssertEqual(Theme.yellow.rawValue.capitalized, Theme.yellow.name)
+    }
+}
