@@ -161,10 +161,10 @@
 		DFA34A3427A08D58006B3A9B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DF56DB1827A3391900340A7B /* ScrumsView.swift */,
 				DFA34A0B27A08BE0006B3A9B /* MeetingView.swift */,
 				DF56DB1327A32AF600340A7B /* CardView.swift */,
 				DF56DB1727A337E300340A7B /* Helpers */,
-				DF56DB1827A3391900340A7B /* ScrumsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
