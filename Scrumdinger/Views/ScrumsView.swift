@@ -15,10 +15,12 @@ struct ScrumsView: View {
     var body: some View {
         List {
             ForEach(scrums) { scrum in
-                NavigationLink(destination: Text(scrum.title)) {
-                    CardView(scrum: scrum)
-                }
-                .listRowBackground(scrum.theme.mainColor)
+                NavigationLink(
+                    destination: DetailView(scrum: scrum),
+                    label: {
+                        CardView(scrum: scrum)
+                    })
+                    .listRowBackground(scrum.theme.mainColor)
             }
         }
         .navigationTitle("Daily Scrums")
