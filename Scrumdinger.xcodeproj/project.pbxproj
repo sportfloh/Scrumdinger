@@ -19,6 +19,7 @@
 		DFA34A1B27A08BE2006B3A9B /* ScrumdingerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA34A1A27A08BE2006B3A9B /* ScrumdingerTests.swift */; };
 		DFA34A2527A08BE2006B3A9B /* ScrumdingerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA34A2427A08BE2006B3A9B /* ScrumdingerUITests.swift */; };
 		DFA34A2727A08BE2006B3A9B /* ScrumdingerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA34A2627A08BE2006B3A9B /* ScrumdingerUITestsLaunchTests.swift */; };
+		DFADA2FF27A5FAA600D92EA2 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFADA2FE27A5FAA600D92EA2 /* DetailView.swift */; };
 		DFE04A7A27A3496B001BB288 /* ThemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE04A7927A3496B001BB288 /* ThemeTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		DFA34A2027A08BE2006B3A9B /* ScrumdingerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrumdingerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFA34A2427A08BE2006B3A9B /* ScrumdingerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerUITests.swift; sourceTree = "<group>"; };
 		DFA34A2627A08BE2006B3A9B /* ScrumdingerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DFADA2FE27A5FAA600D92EA2 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		DFE04A7927A3496B001BB288 /* ThemeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -162,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				DF56DB1827A3391900340A7B /* ScrumsView.swift */,
+				DFADA2FE27A5FAA600D92EA2 /* DetailView.swift */,
 				DFA34A0B27A08BE0006B3A9B /* MeetingView.swift */,
 				DF56DB1327A32AF600340A7B /* CardView.swift */,
 				DF56DB1727A337E300340A7B /* Helpers */,
@@ -330,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF56DB1227A3294500340A7B /* DailyScrum.swift in Sources */,
+				DFADA2FF27A5FAA600D92EA2 /* DetailView.swift in Sources */,
 				DF56DB1627A331B000340A7B /* TrailingIconLabelStyle.swift in Sources */,
 				DF56DB1027A327A200340A7B /* Theme.swift in Sources */,
 				DF56DB1927A3391900340A7B /* ScrumsView.swift in Sources */,
