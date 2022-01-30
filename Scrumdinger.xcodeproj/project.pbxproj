@@ -167,10 +167,10 @@
 			children = (
 				DF56DB1827A3391900340A7B /* ScrumsView.swift */,
 				DFADA2FE27A5FAA600D92EA2 /* DetailView.swift */,
+				DFCEAD7327A6F74C00D1B388 /* DetailEditView.swift */,
 				DFA34A0B27A08BE0006B3A9B /* MeetingView.swift */,
 				DF56DB1327A32AF600340A7B /* CardView.swift */,
 				DF56DB1727A337E300340A7B /* Helpers */,
-				DFCEAD7327A6F74C00D1B388 /* DetailEditView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
