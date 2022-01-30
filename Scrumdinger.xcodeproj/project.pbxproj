@@ -21,6 +21,7 @@
 		DFA34A2727A08BE2006B3A9B /* ScrumdingerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA34A2627A08BE2006B3A9B /* ScrumdingerUITestsLaunchTests.swift */; };
 		DFADA2FF27A5FAA600D92EA2 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFADA2FE27A5FAA600D92EA2 /* DetailView.swift */; };
 		DFCEAD7427A6F74C00D1B388 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCEAD7327A6F74C00D1B388 /* DetailEditView.swift */; };
+		DFCEAD7627A70EE800D1B388 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCEAD7527A70EE800D1B388 /* ThemeView.swift */; };
 		DFE04A7A27A3496B001BB288 /* ThemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE04A7927A3496B001BB288 /* ThemeTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		DFA34A2627A08BE2006B3A9B /* ScrumdingerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DFADA2FE27A5FAA600D92EA2 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		DFCEAD7327A6F74C00D1B388 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
+		DFCEAD7527A70EE800D1B388 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		DFE04A7927A3496B001BB288 /* ThemeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -170,6 +172,7 @@
 				DFCEAD7327A6F74C00D1B388 /* DetailEditView.swift */,
 				DFA34A0B27A08BE0006B3A9B /* MeetingView.swift */,
 				DF56DB1327A32AF600340A7B /* CardView.swift */,
+				DFCEAD7527A70EE800D1B388 /* ThemeView.swift */,
 				DF56DB1727A337E300340A7B /* Helpers */,
 			);
 			path = Views;
@@ -343,6 +346,7 @@
 				DF56DB1927A3391900340A7B /* ScrumsView.swift in Sources */,
 				DFA34A0C27A08BE0006B3A9B /* MeetingView.swift in Sources */,
 				DFA34A0A27A08BE0006B3A9B /* ScrumdingerApp.swift in Sources */,
+				DFCEAD7627A70EE800D1B388 /* ThemeView.swift in Sources */,
 				DF56DB1427A32AF600340A7B /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
