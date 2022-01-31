@@ -23,6 +23,7 @@
 		DFCEAD7427A6F74C00D1B388 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCEAD7327A6F74C00D1B388 /* DetailEditView.swift */; };
 		DFCEAD7627A70EE800D1B388 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCEAD7527A70EE800D1B388 /* ThemeView.swift */; };
 		DFCEAD7827A716E500D1B388 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCEAD7727A716E500D1B388 /* ThemePicker.swift */; };
+		DFCEAD7E27A86BFA00D1B388 /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCEAD7D27A86BFA00D1B388 /* MeetingHeaderView.swift */; };
 		DFE04A7A27A3496B001BB288 /* ThemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE04A7927A3496B001BB288 /* ThemeTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,7 @@
 		DFCEAD7327A6F74C00D1B388 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 		DFCEAD7527A70EE800D1B388 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		DFCEAD7727A716E500D1B388 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
+		DFCEAD7D27A86BFA00D1B388 /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
 		DFE04A7927A3496B001BB288 /* ThemeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -172,6 +174,7 @@
 				DF56DB1827A3391900340A7B /* ScrumsView.swift */,
 				DF56DB1327A32AF600340A7B /* CardView.swift */,
 				DFCEAD7A27A8103E00D1B388 /* Detail */,
+				DFCEAD7C27A86BD400D1B388 /* MeetingView */,
 				DFCEAD7927A80F9D00D1B388 /* Theme */,
 				DF56DB1727A337E300340A7B /* Helpers */,
 			);
@@ -200,9 +203,17 @@
 			children = (
 				DFADA2FE27A5FAA600D92EA2 /* DetailView.swift */,
 				DFCEAD7327A6F74C00D1B388 /* DetailEditView.swift */,
-				DFA34A0B27A08BE0006B3A9B /* MeetingView.swift */,
 			);
 			path = Detail;
+			sourceTree = "<group>";
+		};
+		DFCEAD7C27A86BD400D1B388 /* MeetingView */ = {
+			isa = PBXGroup;
+			children = (
+				DFA34A0B27A08BE0006B3A9B /* MeetingView.swift */,
+				DFCEAD7D27A86BFA00D1B388 /* MeetingHeaderView.swift */,
+			);
+			path = MeetingView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,6 +371,7 @@
 				DFCEAD7827A716E500D1B388 /* ThemePicker.swift in Sources */,
 				DF56DB1227A3294500340A7B /* DailyScrum.swift in Sources */,
 				DFADA2FF27A5FAA600D92EA2 /* DetailView.swift in Sources */,
+				DFCEAD7E27A86BFA00D1B388 /* MeetingHeaderView.swift in Sources */,
 				DFCEAD7427A6F74C00D1B388 /* DetailEditView.swift in Sources */,
 				DF56DB1627A331B000340A7B /* TrailingIconLabelStyle.swift in Sources */,
 				DF56DB1027A327A200340A7B /* Theme.swift in Sources */,
