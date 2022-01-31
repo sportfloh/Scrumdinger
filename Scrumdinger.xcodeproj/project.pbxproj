@@ -170,12 +170,9 @@
 			isa = PBXGroup;
 			children = (
 				DF56DB1827A3391900340A7B /* ScrumsView.swift */,
-				DFADA2FE27A5FAA600D92EA2 /* DetailView.swift */,
-				DFCEAD7327A6F74C00D1B388 /* DetailEditView.swift */,
-				DFA34A0B27A08BE0006B3A9B /* MeetingView.swift */,
 				DF56DB1327A32AF600340A7B /* CardView.swift */,
-				DFCEAD7527A70EE800D1B388 /* ThemeView.swift */,
-				DFCEAD7727A716E500D1B388 /* ThemePicker.swift */,
+				DFCEAD7A27A8103E00D1B388 /* Detail */,
+				DFCEAD7927A80F9D00D1B388 /* Theme */,
 				DF56DB1727A337E300340A7B /* Helpers */,
 			);
 			path = Views;
@@ -187,6 +184,25 @@
 				DFA34A0D27A08BE1006B3A9B /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		DFCEAD7927A80F9D00D1B388 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				DFCEAD7727A716E500D1B388 /* ThemePicker.swift */,
+				DFCEAD7527A70EE800D1B388 /* ThemeView.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		DFCEAD7A27A8103E00D1B388 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				DFADA2FE27A5FAA600D92EA2 /* DetailView.swift */,
+				DFCEAD7327A6F74C00D1B388 /* DetailEditView.swift */,
+				DFA34A0B27A08BE0006B3A9B /* MeetingView.swift */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
