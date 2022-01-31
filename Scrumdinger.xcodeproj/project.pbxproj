@@ -24,6 +24,7 @@
 		DFCEAD7627A70EE800D1B388 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCEAD7527A70EE800D1B388 /* ThemeView.swift */; };
 		DFCEAD7827A716E500D1B388 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCEAD7727A716E500D1B388 /* ThemePicker.swift */; };
 		DFCEAD7E27A86BFA00D1B388 /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCEAD7D27A86BFA00D1B388 /* MeetingHeaderView.swift */; };
+		DFCEAD8027A8746F00D1B388 /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCEAD7F27A8746F00D1B388 /* ScrumProgressViewStyle.swift */; };
 		DFE04A7A27A3496B001BB288 /* ThemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE04A7927A3496B001BB288 /* ThemeTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +66,7 @@
 		DFCEAD7527A70EE800D1B388 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		DFCEAD7727A716E500D1B388 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 		DFCEAD7D27A86BFA00D1B388 /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
+		DFCEAD7F27A8746F00D1B388 /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 		DFE04A7927A3496B001BB288 /* ThemeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				DF56DB1527A331B000340A7B /* TrailingIconLabelStyle.swift */,
+				DFCEAD7F27A8746F00D1B388 /* ScrumProgressViewStyle.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -369,6 +372,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFCEAD7827A716E500D1B388 /* ThemePicker.swift in Sources */,
+				DFCEAD8027A8746F00D1B388 /* ScrumProgressViewStyle.swift in Sources */,
 				DF56DB1227A3294500340A7B /* DailyScrum.swift in Sources */,
 				DFADA2FF27A5FAA600D92EA2 /* DetailView.swift in Sources */,
 				DFCEAD7E27A86BFA00D1B388 /* MeetingHeaderView.swift in Sources */,
