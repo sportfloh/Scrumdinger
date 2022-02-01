@@ -6,7 +6,10 @@ import Foundation
 
 // MARK: -
 
-/// Keeps time for a daily scrum meeting. Keep track of the total meeting time, the time for each speaker, and the name of the current speaker.
+/**
+ Keeps time for a daily scrum meeting.
+ Keep track of the total meeting time, the time for each speaker, and the name of the current speaker.
+ */
 class ScrumTimer: ObservableObject {
     /// A struct to keep track of meeting attendees during a meeting.
     struct Speaker: Identifiable {
@@ -49,7 +52,8 @@ class ScrumTimer: ObservableObject {
     private var startDate: Date?
 
     /**
-     Initialize a new timer. Initializing a time with no arguments creates a ScrumTimer with no attendees and zero length.
+     Initialize a new timer.
+     Initializing a time with no arguments creates a ScrumTimer with no attendees and zero length.
      Use `startScrum()` to start the timer.
 
      - Parameters:
