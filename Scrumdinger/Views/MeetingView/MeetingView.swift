@@ -5,6 +5,7 @@
 //  Created by Florian Bruder on 25.01.22.
 //
 
+import AVFoundation
 import SwiftUI
 
 // MARK: -
@@ -12,6 +13,8 @@ import SwiftUI
 struct MeetingView: View {
     @Binding var scrum: DailyScrum
     @StateObject var scrumTimer = ScrumTimer()
+
+    private var player: AVPlayer { AVPlayer.sharedDingPlayer }
 
     var body: some View {
         ZStack {
@@ -35,7 +38,13 @@ struct MeetingView: View {
         .padding()
         .foregroundColor(scrum.theme.accentColor)
         .onAppear {
-            scrumTimer.reset(lengthInMinutes: scrum.lengthInMinutes, attendees: scrum.attendees)
+            scrumTimer.reset(
+                lengthInMinutes: scrum.lengthInMinutes,
+                attendees: scrum.attendees)
+            scrumTimer.speakerChangedAction = {
+                player.seek(to: .zero)
+                player.play()
+            }
             scrumTimer.startScrum()
         }
         .onDisappear {
