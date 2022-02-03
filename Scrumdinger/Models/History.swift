@@ -8,3 +8,10 @@
 import Foundation
 
 // MARK: -
+
+struct History: Identifiable {
+    let id = UUID()
+    let date = Date()
+    var attendees: [DailyScrum.Attendee]
+    var lengthInMinutes = 5
+}
