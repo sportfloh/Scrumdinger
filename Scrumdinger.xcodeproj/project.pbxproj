@@ -29,6 +29,7 @@
 		DFCEAD8427AB1FA400D1B388 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCEAD8327AB1FA400D1B388 /* MeetingFooterView.swift */; };
 		DFCEAD8627AB281000D1B388 /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCEAD8527AB281000D1B388 /* AVPlayer+Ding.swift */; };
 		DFCEAD8827AB289300D1B388 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = DFCEAD8727AB289300D1B388 /* ding.wav */; };
+		DFCEAD8A27AC77D100D1B388 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCEAD8927AC77D100D1B388 /* History.swift */; };
 		DFE04A7A27A3496B001BB288 /* ThemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE04A7927A3496B001BB288 /* ThemeTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +76,7 @@
 		DFCEAD8327AB1FA400D1B388 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 		DFCEAD8527AB281000D1B388 /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 		DFCEAD8727AB289300D1B388 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
+		DFCEAD8927AC77D100D1B388 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		DFE04A7927A3496B001BB288 /* ThemeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,6 +112,7 @@
 				DF56DB1127A3294500340A7B /* DailyScrum.swift */,
 				DFCEAD8127A9C56D00D1B388 /* ScrumTimer.swift */,
 				DFCEAD8527AB281000D1B388 /* AVPlayer+Ding.swift */,
+				DFCEAD8927AC77D100D1B388 /* History.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -384,6 +387,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFCEAD8A27AC77D100D1B388 /* History.swift in Sources */,
 				DFCEAD7827A716E500D1B388 /* ThemePicker.swift in Sources */,
 				DFCEAD8027A8746F00D1B388 /* ScrumProgressViewStyle.swift in Sources */,
 				DFCEAD8427AB1FA400D1B388 /* MeetingFooterView.swift in Sources */,
