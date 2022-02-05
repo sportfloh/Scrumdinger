@@ -9,7 +9,7 @@ import SwiftUI
 
 // MARK: -
 
-enum Theme: String, CaseIterable, Identifiable {
+enum Theme: String, CaseIterable, Identifiable, Codable {
     case bubblegum
     case buttercup
     case indigo
