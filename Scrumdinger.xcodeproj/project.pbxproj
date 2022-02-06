@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DF26AC0927AE94F700590A01 /* ScrumStore.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = DF26AC0827AE94F700590A01 /* ScrumStore.swift .swift */; };
+		DF26AC0B27B0473B00590A01 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF26AC0A27B0473B00590A01 /* ErrorWrapper.swift */; };
 		DF56DB1027A327A200340A7B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF56DB0F27A327A200340A7B /* Theme.swift */; };
 		DF56DB1227A3294500340A7B /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF56DB1127A3294500340A7B /* DailyScrum.swift */; };
 		DF56DB1427A32AF600340A7B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF56DB1327A32AF600340A7B /* CardView.swift */; };
@@ -53,6 +54,7 @@
 
 /* Begin PBXFileReference section */
 		DF26AC0827AE94F700590A01 /* ScrumStore.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScrumStore.swift .swift"; sourceTree = "<group>"; };
+		DF26AC0A27B0473B00590A01 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
 		DF56DB0F27A327A200340A7B /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		DF56DB1127A3294500340A7B /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		DF56DB1327A32AF600340A7B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				DFCEAD8527AB281000D1B388 /* AVPlayer+Ding.swift */,
 				DFCEAD8927AC77D100D1B388 /* History.swift */,
 				DF26AC0827AE94F700590A01 /* ScrumStore.swift .swift */,
+				DF26AC0A27B0473B00590A01 /* ErrorWrapper.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -400,6 +403,7 @@
 				DFCEAD7E27A86BFA00D1B388 /* MeetingHeaderView.swift in Sources */,
 				DFCEAD7427A6F74C00D1B388 /* DetailEditView.swift in Sources */,
 				DF56DB1627A331B000340A7B /* TrailingIconLabelStyle.swift in Sources */,
+				DF26AC0B27B0473B00590A01 /* ErrorWrapper.swift in Sources */,
 				DF26AC0927AE94F700590A01 /* ScrumStore.swift .swift in Sources */,
 				DF56DB1027A327A200340A7B /* Theme.swift in Sources */,
 				DF56DB1927A3391900340A7B /* ScrumsView.swift in Sources */,
