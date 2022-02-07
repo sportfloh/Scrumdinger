@@ -46,8 +46,11 @@ extension History {
 struct HistoryView_Previews: PreviewProvider {
     static var history: History {
         History(attendees: [
-            DailyScrum.Attendee(name: "Jon"), DailyScrum.Attendee(name: "Darla"), DailyScrum.Attendee(name: "Luis")
-        ], lengthInMinutes: 10,
+            DailyScrum.Attendee(name: "Jon"),
+            DailyScrum.Attendee(name: "Darla"),
+            DailyScrum.Attendee(name: "Luis")
+        ],
+        lengthInMinutes: 10,
         // swiftlint:disable:next line_length
         transcript: "Darla, would you like to start today? Sure, yesterday I reviewed Luis' PR and met with the design team to finalize the UI...")
     }
