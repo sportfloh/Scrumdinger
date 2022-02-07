@@ -241,6 +241,7 @@
 			children = (
 				DFADA2FE27A5FAA600D92EA2 /* DetailView.swift */,
 				DFCEAD7327A6F74C00D1B388 /* DetailEditView.swift */,
+				DF26AC1527B13A5400590A01 /* HistoryView.swift .swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -252,7 +253,6 @@
 				DFCEAD7D27A86BFA00D1B388 /* MeetingHeaderView.swift */,
 				DFCEAD8327AB1FA400D1B388 /* MeetingFooterView.swift */,
 				DF26AC0E27B1119800590A01 /* MeetingTimerView.swift */,
-				DF26AC1527B13A5400590A01 /* HistoryView.swift .swift */,
 			);
 			path = MeetingView;
 			sourceTree = "<group>";
