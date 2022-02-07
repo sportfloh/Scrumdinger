@@ -13,6 +13,8 @@ import SwiftUI
 struct MeetingView: View {
     @Binding var scrum: DailyScrum
     @StateObject var scrumTimer = ScrumTimer()
+    @StateObject var speechRecognizer = SpeechRecognizer()
+    @State private var isRecording = false
 
     private var player: AVPlayer { AVPlayer.sharedDingPlayer }
 
@@ -27,7 +29,10 @@ struct MeetingView: View {
                     secondsRemaining: scrumTimer.secondsRemaining,
                     theme: scrum.theme)
 
-                MeetingTimerView(speakers: scrumTimer.speakers, theme: scrum.theme)
+                MeetingTimerView(
+                    speakers: scrumTimer.speakers,
+                    isRecording: isRecording,
+                    theme: scrum.theme)
 
                 MeetingFooterView(
                     speakers: scrumTimer.speakers,
@@ -44,10 +49,15 @@ struct MeetingView: View {
                 player.seek(to: .zero)
                 player.play()
             }
+            speechRecognizer.reset()
+            speechRecognizer.transcribe()
+            isRecording = true
             scrumTimer.startScrum()
         }
         .onDisappear {
             scrumTimer.stopScrum()
+            speechRecognizer.stopTranscribing()
+            isRecording = false
             let newHistory = History(
                 attendees: scrum.attendees,
                 lengthInMinutes: scrum.timer.secondsElapsed / 60)
