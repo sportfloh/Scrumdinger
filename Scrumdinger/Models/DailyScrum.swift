@@ -48,7 +48,7 @@ struct DailyScrum: Identifiable, Codable {
 // MARK: - Subtypes
 
 extension DailyScrum {
-    struct Attendee: Identifiable, Codable {
+    struct Attendee: Identifiable, Codable, Equatable {
         let id: UUID
         var name: String
 
@@ -58,7 +58,7 @@ extension DailyScrum {
         }
     }
 
-    struct Data {
+    struct Data: Equatable {
         var title: String = ""
         var attendees: [Attendee] = []
         var lengthInMinutes: Double = 5
