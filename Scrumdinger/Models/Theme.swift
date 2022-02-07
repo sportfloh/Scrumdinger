@@ -29,9 +29,10 @@ enum Theme: String, CaseIterable, Identifiable, Codable {
 
     var accentColor: Color {
         switch self {
-        // swiftlint:disable:next line_length
-        case .bubblegum, .buttercup, .lavender, .orange, .periwinkle, .poppy, .seafoam, .sky, .tan, .teal, .yellow: return .black
-        case .indigo, .magenta, .navy, .oxblood, .purple: return .white
+        case .bubblegum, .buttercup, .lavender, .orange, .periwinkle, .poppy, .seafoam, .sky, .tan, .teal, .yellow:
+            return .black
+        case .indigo, .magenta, .navy, .oxblood, .purple:
+            return .white
         }
     }
 
